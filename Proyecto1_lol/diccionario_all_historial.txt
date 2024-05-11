@@ -1,0 +1,96 @@
+LLAVES DICCIONARIO ALL_HISTORIAL
+
+'allInPings': Cantidad de veces que el jugador ha utilizado el ping "all-in" durante la partida.
+'assistMePings': Cantidad de veces que el jugador ha utilizado el ping "assist me" durante la partida.
+'assists': Número de asistencias que el jugador ha conseguido en la partida.
+'baitPings': Cantidad de veces que el jugador ha utilizado el ping "bait" durante la partida.
+'baronKills': Número de Barones Nashor que el jugador ha eliminado en la partida.
+'basicPings': Cantidad de veces que el jugador ha utilizado el ping básico durante la partida.
+'bountyLevel': Nivel de recompensa de caza del jugador en la partida.
+'champExperience': Experiencia total ganada por el jugador durante la partida.
+'champLevel': Nivel del campeón del jugador al final de la partida.
+'championId': Identificación del campeón que el jugador ha utilizado en la partida.
+'championTransform': Información sobre transformaciones de campeones (por ejemplo, la forma de transformación de Kayn).
+'commandPings': Cantidad de veces que el jugador ha utilizado el ping "command" durante la partida.
+'consumablesPurchased': Cantidad de consumibles comprados por el jugador durante la partida.
+'damageDealtToBuildings': Daño total infligido por el jugador a estructuras (torretas e inhibidores) durante la partida.
+'damageDealtToObjectives': Daño total infligido por el jugador a objetivos (como dragones y Heraldo) durante la partida.
+'damageDealtToTurrets': Daño total infligido por el jugador a torretas durante la partida.
+'damageSelfMitigated': Daño total que el jugador se ha mitigado a sí mismo durante la partida.
+'dangerPings': Cantidad de veces que el jugador ha utilizado el ping "danger" durante la partida.
+'deaths': Número de veces que el jugador ha muerto en la partida.
+'detectorWardsPlaced': Cantidad de "wards" de visión colocadas por el jugador durante la partida.
+'doubleKills': Número de dobles eliminaciones que el jugador ha logrado en la partida.
+'dragonKills': Número de dragones que el jugador ha eliminado en la partida.
+'enemyMissingPings': de veces que el jugador ha utilizado el ping "enemy missing" durante la partida.
+'enemyVisionPings': Cantidad de veces que el jugador ha utilizado el ping "enemy vision" durante la partida.
+'getBackPings': Cantidad de veces que el jugador ha utilizado el ping "get back" durante la partida.
+'goldEarned': Cantidad total de oro ganado por el jugador durante la partida.
+'goldSpent': Cantidad total de oro gastado por el jugador durante la partida.
+'holdPings': Cantidad de veces que el jugador ha utilizado el ping "hold" durante la partida.
+'inhibitorKills': Número de inhibidores que el jugador ha eliminado en la partida.
+'inhibitorTakedowns': Número de inhibidores del equipo enemigo que el jugador ha participado en eliminar durante la partida.
+'inhibitorsLost': Número de inhibidores que el equipo del jugador ha perdido durante la partida.
+'item0', 'item1', 'item2', 'item3', 'item4', 'item5', 'item6': Identificación de los objetos (items) que el jugador ha comprado y lleva en cada una de sus ranuras durante la partida.
+'itemsPurchased': Cantidad total de objetos comprados por el jugador durante la partida.
+'killingSprees': Número de rachas de eliminaciones que el jugador ha logrado en la partida.
+'kills': Número de eliminaciones (kills) que el jugador ha conseguido en la partida.
+'largestCriticalStrike': Valor del golpe crítico más grande que el jugador ha infligido en la partida.
+'largestKillingSpree': Número máximo de eliminaciones consecutivas que el jugador ha logrado en la partida.
+'largestMultiKill': NúCantidadmero máximo de eliminaciones en cadena que el jugador ha logrado en la partida.
+'longestTimeSpentLiving': Tiempo más largo que el jugador ha pasado vivo continuamente en la partida.
+'magicDamageDealt': Cantidad total de daño mágico infligido por el jugador durante la partida.
+'magicDamageDealtToChampions': Cantidad total de daño mágico infligido por el jugador a campeones enemigos durante la partida.
+'magicDamageTaken': Cantidad total de daño mágico recibido por el jugador durante la partida.
+'needVisionPings': Cantidad de veces que el jugador ha utilizado el ping "need vision" durante la partida.
+'neutralMinionsKilled': Cantidad total de súbditos neutrales (jungle) eliminados por el jugador durante la partida.
+'nexusKills': Número de Núcleos Nexus que el jugador ha eliminado en la partida.
+'nexusLost': Número de Núcleos Nexus que el equipo del jugador ha perdido durante la partida.
+'nexusTakedowns': Número de Núcleos Nexus del equipo enemigo en los que el jugador ha participado en eliminar durante la partida.
+'objectivesStolen': Número de objetivos (como dragones o Heraldo) robados por el jugador durante la partida.
+'objectivesStolenAssists': Número de asistencias del jugador en robos de objetivos durante la partida.
+'onMyWayPings': Cantidad de veces que el jugador ha utilizado el ping "on my way" durante la partida.
+'participantId': Identificación del participante (jugador) en la partida.
+'pentaKills': Número de pentakills que el jugador ha logrado en la partida.
+'physicalDamageDealt': Cantidad total de daño físico infligido por el jugador durante la partida.
+'physicalDamageDealtToChampions': Cantidad total de daño físico infligido por el jugador a campeones enemigos durante la partida.
+'physicalDamageTaken': Cantidad total de daño físico recibido por el jugador durante la partida.
+'placement': Posición final en la que quedó el jugador en la partida.
+'playerAugment1', 'playerAugment2', 'playerAugment3', 'playerAugment4': Información sobre las mejoras (augments) utilizadas en el modo de juego "Odyssey Extraction".
+'playerSubteamId': Identificación del subequipo al que pertenece el jugador en el modo de juego "Odyssey Extraction".
+'profileIcon': Icono de perfil utilizado por el jugador durante la partida.
+'pushPings': Cantidad de veces que el jugador ha utilizado el ping "push" durante la partida.
+'quadraKills': Número de cuadrakills que el jugador ha logrado en la partida.
+'sightWardsBoughtInGame': Cantidad de "wards" de visión compradas por el jugador durante la partida.
+'spell1Casts', 'spell2Casts', 'spell3Casts', 'spell4Casts': Cantidad de veces que el jugador ha utilizado cada una de las habilidades (spells) de su campeón durante la partida.
+'subteamPlacement': Posición final en la que quedó el subequipo del jugador en el modo de juego "Odyssey Extraction".
+'summoner1Casts', 'summoner1Id', 'summoner2Casts', 'summoner2Id': Información sobre las habilidades de invocador (spells de invocador) utilizadas por el jugador durante la partida.
+'summonerLevel': Nivel de invocador del jugador.
+'teamId': Identificación del equipo al que pertenece el jugador en la partida.
+'timeCCingOthers': Tiempo total que el jugador ha aplicado efectos de control de masas (CC) a otros durante la partida.
+'timePlayed': Tiempo total que el jugador ha jugado la partida.
+'totalAllyJungleMinionsKilled': Cantidad total de súbditos neutrales (jungle) aliados eliminados por el jugador durante la partida.
+'totalDamageDealt': Cantidad total de daño infligido por el jugador durante la partida.
+'totalDamageDealtToChampions': Cantidad total de daño infligido por el jugador a campeones enemigos durante la partida.
+'totalDamageShieldedOnTeammates': Cantidad total de escudos proporcionados por el jugador a sus compañeros de equipo durante la partida.
+'totalDamageTaken': Cantidad total de daño recibido por el jugador durante la partida.
+'totalEnemyJungleMinionsKilled': Cantidad total de súbditos neutrales (jungle) enemigos eliminados por el jugador durante la partida.
+'totalHeal': Cantidad total de curaciones realizadas por el jugador durante la partida.
+'totalHealsOnTeammates': Cantidad total de curaciones realizadas por el jugador a sus compañeros de equipo durante la partida.
+'totalMinionsKilled': Cantidad total de súbditos (minions) eliminados por el jugador durante la partida.
+'totalTimeCCDealt': Tiempo total que el jugador ha aplicado efectos de control de masas (CC) a los enemigos durante la partida.
+'totalTimeSpentDead': Tiempo total que el jugador ha pasado muerto durante la partida.
+'totalUnitsHealed': Cantidad total de unidades curadas por el jugador durante la partida.
+'tripleKills': Número de triple eliminaciones que el jugador ha logrado en la partida.
+'trueDamageDealt': Cantidad total de daño verdadero infligido por el jugador durante la partida.
+'trueDamageDealtToChampions': Cantidad total de daño verdadero infligido por el jugador a campeones enemigos durante la partida.
+'trueDamageTaken': Cantidad total de daño verdadero recibido por el jugador durante la partida.
+'turretKills': Número de torretas que el jugador ha eliminado en la partida.
+'turretTakedowns': Número de torretas del equipo enemigo en las que el jugador ha participado en eliminar durante la partida.
+'turretsLost': Número de torretas que el equipo del jugador ha perdido durante la partida.
+'unrealKills': Número de eliminaciones de "unreal" que el jugador ha logrado en la partida.
+'visionClearedPings': Cantidad de veces que el jugador ha utilizado el ping "vision cleared" durante la partida.
+'visionScore': Puntuación de visión del jugador en la partida.
+'visionWardsBoughtInGame': Cantidad de "wards" de visión controlada compradas por el jugador durante la partida.
+'wardsKilled': Cantidad de "wards" enemigas eliminadas por el jugador durante la partida.
+'wardsPlaced': Cantidad de "wards" colocadas por el jugador durante la partida.
