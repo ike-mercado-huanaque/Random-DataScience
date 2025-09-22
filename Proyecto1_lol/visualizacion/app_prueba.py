@@ -19,12 +19,12 @@ df = load_data(StringIO(response.text))
 response2 = requests.get(url_graf_scores)
 df_scores = load_data(StringIO(response2.text))
 
-df_visual = pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score']],id_vars='championName',var_name='type_score',value_name='score')
+#df_visual = pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score']],id_vars='championName',var_name='type_score',value_name='score')
 
-st.dataframe(data = df_visual)
+#st.dataframe(data = df_visual)
 st.dataframe(data = df_scores)
 
-st.bar_chart(df_visual,x="championName", y="score", color="type_score")
+#st.bar_chart(df_visual,x="championName", y="score", color="type_score")
 
 
 
