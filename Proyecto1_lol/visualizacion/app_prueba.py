@@ -35,34 +35,6 @@ pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score','utility'
 
 #st.dataframe(data = df_visual)
 
-#markdown
-
-st.markdown(''' 
-Definiciones
-
-* AllyHelpScore: Mide que tanto aporta un campeon aliado si te toca en tu equipo.
-* AllyUselessScore: Mide que tan inefectivo es un campeon aliado si te toca en tu equipo.
-* Utility: Es la resta entre AllyHelpScore y AllyUselessScore, mientras mas grande sea la resta mas util es un campeon y viceversa.
-
-Formulas
-
-frec: Frequence of Appear
-
-AllyHelpScore''')
-
-
-st.latex(r"AllyHelpScore = WinRate(AllyChamp)\times frec(AllyChamp)")
-st.latex(r"AllyHelpScore = \frac{wins(AllyChamp)}{frec(AllyChamp)}\times\frac{frec(AllyChamp)}{TotalMatches}")
-
-st.markdown("AllyUselessScore ")
-
-st.latex(r"AllyUselessScore = LoseRate(AllyChamp)\times frec(AllyChamp)")
-st.latex(r"AllyUselessScore = \frac{losses(AllyChamp)}{frec(AllyChamp)}\times\frac{frec(AllyChamp)}{TotalMatches}")
-
-st.markdown("Utility")
-st.latex(r"Utility = AllyHelpScore - AllyUselessScore")
-
-st.markdown("Los siguientes gráficos muestran los AllyHelpScore, AllyUselessScore y Utility de un jugador seleccionado al azar. Si dicho jugador le tocara un campeon con alta utilidad, puede ser aconsejable que trate de hacer sinergia con dicho aliado. Sin embargo si le toca un campeon con pesima utilidad, puede decidir o bien banearlo o bien dodgear la partida.")
 
 
 #grafico
@@ -92,6 +64,35 @@ with col2:
 #tabla
 st.header("Tabla de scores")
 st.dataframe(data = df_scores,use_container_width=True)
+
+#markdown
+
+st.markdown(''' 
+Definiciones
+
+* AllyHelpScore: Mide que tanto aporta un campeon aliado si te toca en tu equipo.
+* AllyUselessScore: Mide que tan inefectivo es un campeon aliado si te toca en tu equipo.
+* Utility: Es la resta entre AllyHelpScore y AllyUselessScore, mientras mas grande sea la resta mas util es un campeon y viceversa.
+
+Formulas
+
+frec: Frequence of Appear
+
+AllyHelpScore''')
+
+
+st.latex(r"AllyHelpScore = WinRate(AllyChamp)\times frec(AllyChamp)")
+st.latex(r"AllyHelpScore = \frac{wins(AllyChamp)}{frec(AllyChamp)}\times\frac{frec(AllyChamp)}{TotalMatches}")
+
+st.markdown("AllyUselessScore ")
+
+st.latex(r"AllyUselessScore = LoseRate(AllyChamp)\times frec(AllyChamp)")
+st.latex(r"AllyUselessScore = \frac{losses(AllyChamp)}{frec(AllyChamp)}\times\frac{frec(AllyChamp)}{TotalMatches}")
+
+st.markdown("Utility")
+st.latex(r"Utility = AllyHelpScore - AllyUselessScore")
+
+st.markdown("Los siguientes gráficos muestran los AllyHelpScore, AllyUselessScore y Utility de un jugador seleccionado al azar. Si dicho jugador le tocara un campeon con alta utilidad, puede ser aconsejable que trate de hacer sinergia con dicho aliado. Sin embargo si le toca un campeon con pesima utilidad, puede decidir o bien banearlo o bien dodgear la partida.")
 
 
 
