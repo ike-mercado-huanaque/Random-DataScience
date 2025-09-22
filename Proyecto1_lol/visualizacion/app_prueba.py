@@ -24,7 +24,7 @@ df_visual = pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Scor
 st.dataframe(data = df_visual)
 st.dataframe(data = df_scores)
 
-#st.bar_chart(df_visual,x="championName", y="score", color="type_score")
+st.bar_chart(df_visual,x="championName", y="score", color="type_score")
 
 
 
