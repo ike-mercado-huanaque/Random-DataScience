@@ -19,7 +19,7 @@ df = load_data(StringIO(response.text))
 response2 = requests.get(url_graf_scores)
 df_scores = load_data(StringIO(response2.text))
 
-df_visual =  pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score']],
+df_visual =  pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score','utility']],
                      id_vars='championName',
                      var_name='type_score',
                      value_name='score').merge(
@@ -27,7 +27,7 @@ df_visual =  pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Sco
                            on="championName",
                            how="left").sort_values(
                                ["utility","championName"],
-                               ascending=[False,False]).reset_index(drop=True)[:20]
+                               ascending=[False,False]).reset_index(drop=True)[:30]
 
 
 
