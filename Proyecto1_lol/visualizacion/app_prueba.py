@@ -37,7 +37,7 @@ pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score','utility'
 
 #grafico
 st.header("Grafico de scores")
-st.bar_chart(df_visual.set_index('championName'), y=["score","utility"], color="type_score",stack="normalize")
+st.bar_chart(df_visual.set_index('championName'), y=["score","utility"], color="type_score",stack=False)
 
 #tabla
 st.header("Tabla de scores")
