@@ -16,8 +16,8 @@ url_graf_scores = "https://raw.githubusercontent.com/ike-mercado-huanaque/Random
 response = requests.get(url)
 df = load_data(StringIO(response.text))
 
-response = requests.get(url_graf_scores)
-df_scores = load_data(StringIO(response.text))
+response2 = requests.get(url_graf_scores)
+df_scores = load_data(StringIO(response2.text))
 
 df_visual = pd.melt(df_scores.sort_values(['utility','AllyHelp_Score'],ascending=[False,False])[['championName','AllyHelp_Score','AllyUseless_Score']],
         id_vars='championName',
