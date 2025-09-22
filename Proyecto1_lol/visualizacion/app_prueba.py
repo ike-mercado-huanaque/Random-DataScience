@@ -19,7 +19,18 @@ df = load_data(StringIO(response.text))
 response2 = requests.get(url_graf_scores)
 df_scores = load_data(StringIO(response2.text))
 
-df_visual = pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score','utility']].sort_values(['utility','AllyHelp_Score'],ascending=[False,False])[:10],id_vars='championName',var_name='type_score',value_name='score')
+df_visual =  pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score']],
+                     id_vars='championName',
+                     var_name='type_score',
+                     value_name='score').merge(
+                           df_scores[["championName","utility"]],
+                           on="championName",
+                           how="left").sort_values(
+                               ["utility","championName"],ascending=[False,False])
+
+
+
+pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score','utility']].sort_values(['utility','AllyHelp_Score'],ascending=[False,False])[:10],id_vars='championName',var_name='type_score',value_name='score')
 
 #st.dataframe(data = df_visual)
 
