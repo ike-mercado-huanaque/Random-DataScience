@@ -26,6 +26,8 @@ ascending=[False,False])[['championName','AllyHelp_Score','AllyUseless_Score']],
         var_name='type_score',
         value_name='score')
 
+st.dataframe(data = df_scores)
+
 st.bar_chart(df_visual,x="championName", y="score", color="type_score")
 
 
