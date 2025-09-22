@@ -50,10 +50,12 @@ frec: Frequence of Appear
 
 AllyHelpScore''')
 
-st.latex(r'''
-$$AllyHelpScore = WinRate(AllyChamp)\times frec(AllyChamp)$$
-$$AllyHelpScore = \frac{wins(AllyChamp)}{frec(AllyChamp)}\times\frac{frec(AllyChamp)}{TotalMatches}$$
-''')
+
+st.latex(r"AllyHelpScore = WinRate(AllyChamp)\times frec(AllyChamp)")
+
+
+st.latex(r"AllyHelpScore = \frac{wins(AllyChamp)}{frec(AllyChamp)}\times\frac{frec(AllyChamp)}{TotalMatches}")
+
 st.markdown("AllyUselessScore ")
 
 st.latex(r''' 
