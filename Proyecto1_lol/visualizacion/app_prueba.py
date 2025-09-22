@@ -26,7 +26,8 @@ df_visual =  pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Sco
                            df_scores[["championName","utility"]],
                            on="championName",
                            how="left").sort_values(
-                               ["utility","championName"],ascending=[False,False])
+                               ["utility","championName"],
+                               ascending=[False,False]).reset_index(drop=True)[:20]
 
 
 
