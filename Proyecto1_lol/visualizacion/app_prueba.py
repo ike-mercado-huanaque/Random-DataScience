@@ -35,7 +35,20 @@ pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score','utility'
 
 #st.dataframe(data = df_visual)
 
+#markdow cabecera (cambiar mas adelante si es posible)
 
+st.markdown(''' 
+Definiciones
+
+* AllyHelpScore: Mide que tanto aporta un campeon aliado si te toca en tu equipo.
+* AllyUselessScore: Mide que tan inefectivo es un campeon aliado si te toca en tu equipo.
+* Utility: Es la resta entre AllyHelpScore y AllyUselessScore, mientras mas grande sea la resta mas util es un campeon y viceversa.
+
+Formulas
+
+frec: Frequence of Appear
+
+AllyHelpScore''')
 
 #grafico
 col1, col2 = st.columns(2,gap="large")
@@ -65,20 +78,7 @@ with col2:
 st.header("Tabla de scores")
 st.dataframe(data = df_scores,use_container_width=True)
 
-#markdown
-
-st.markdown(''' 
-Definiciones
-
-* AllyHelpScore: Mide que tanto aporta un campeon aliado si te toca en tu equipo.
-* AllyUselessScore: Mide que tan inefectivo es un campeon aliado si te toca en tu equipo.
-* Utility: Es la resta entre AllyHelpScore y AllyUselessScore, mientras mas grande sea la resta mas util es un campeon y viceversa.
-
-Formulas
-
-frec: Frequence of Appear
-
-AllyHelpScore''')
+#markdown explicacion
 
 
 st.latex(r"AllyHelpScore = WinRate(AllyChamp)\times frec(AllyChamp)")
