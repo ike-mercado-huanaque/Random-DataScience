@@ -42,14 +42,14 @@ col1, col2 = st.columns([3,3])
 
 with col1:
     st.header("Grafico de scores")
-    st.bar_chart(df_visual.set_index('championName'), y=["score"], color="type_score",stack=False)
+    st.bar_chart(df_visual.set_index('championName'), y=["score"], color="type_score",use_container_width=True,stack=False)
 with col2:
     st.header("Grafico de utilidad")
-    st.bar_chart(df_visual.set_index('championName'), y=["utility"],color=["#FF8E8E"],horizontal=True)
+    st.bar_chart(df_visual.set_index('championName'), y=["utility"],color=["#FF8E8E"],use_container_width=True,horizontal=True)
 
 #tabla
 st.header("Tabla de scores")
-st.dataframe(data = df_scores)
+st.dataframe(data = df_scores,use_container_width=True)
 
 
 
