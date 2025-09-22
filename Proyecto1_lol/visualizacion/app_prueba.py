@@ -37,7 +37,7 @@ pd.melt(df_scores[['championName','AllyHelp_Score','AllyUseless_Score','utility'
 
 #grafico
 
-col1, col2 = st.columns([2,1])
+col1, col2 = st.columns([2,2])
 
 with col1:
     st.header("Grafico de scores")
